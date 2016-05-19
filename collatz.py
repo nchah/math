@@ -1,4 +1,10 @@
 #!/usr/bin/env python
+"""
+collatz.py
+- CLI tool that prints out the collatz conjecture (3n + 1) numbers for an input.
+- +> and -> show that the next number is larger or smaller than the one before.
+
+"""
 
 import argparse
 
