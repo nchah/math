@@ -15,7 +15,7 @@ def collatz(n):
     stack = ""
     stack += str(n)
     while n != 1:
-        if n / 2 == 1:
+        if n / 2.0 == 1:
             n = 1
             stack += " => " + str(n)
             stack_count += 1
