@@ -14,5 +14,11 @@ $ python collatz.py 100
 10 -> 5 +> 16 -> 8 -> 4 -> 2 => 1
 ```
 
+Relevant XKCD:
+
+![XKCD collatz_conjecture.png](http://imgs.xkcd.com/comics/collatz_conjecture.png)
 
 
+## Sources
+
+- https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_mathematics
