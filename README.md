@@ -8,10 +8,10 @@ collatz.py is a Python CLI to test the Collatz Conjecture. From [Wikipedia](http
 ```
 $ # +> or -> indicates the next number is larger or smaller respectively.
 $ python collatz.py 100
-100 -> 50 -> 25 +> 76 -> 38 -> 19 +> 58 -> 29 +> 88 -> 44 -> 22 -> 11 +> 34 -> 17 +> 52 -> 26 -> 13 +> 40 -> 20 -> 10 -> 5 +> 16 -> 8 -> 4 -> 2 => 1
+100 -> 50 -> 25 +> 76 -> 38 -> 19 +> 58 -> 29 +> 88 -> 44 -> 22 -> 11 +> 34 -> 17 +> 52 -> 26 -> 13 +> 40 -> 20 -> 10 -> 5 +> 16 -> 8 -> 4 -> 2 => 1 (25 ops)
 
-$ python collatz.py 100
-10 -> 5 +> 16 -> 8 -> 4 -> 2 => 1
+$ python collatz.py 10
+10 -> 5 +> 16 -> 8 -> 4 -> 2 => 1 (6 ops)
 ```
 
 Relevant XKCD:
@@ -22,3 +22,4 @@ Relevant XKCD:
 ## Sources
 
 - https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_mathematics
+
