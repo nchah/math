@@ -2,7 +2,7 @@
 
 ## Collatz
 
-collatz.py is a Python CLI to test the Collatz Conjecture. From [Wikipedia](https://en.wikipedia.org/wiki/Collatz_conjecture)
+`collatz.py` is a Python CLI to test the Collatz Conjecture. From [Wikipedia](https://en.wikipedia.org/wiki/Collatz_conjecture)
 "The conjecture can be summarized as follows. Take any positive integer n. If n is even, divide it by 2 to get n / 2. If n is odd, multiply it by 3 and add 1 to obtain 3n + 1. Repeat the process (which has been called "Half Or Triple Plus One", or HOTPO) indefinitely. The conjecture is that no matter what number you start with, you will always eventually reach 1."
 
 ```
@@ -12,6 +12,21 @@ $ python collatz.py 100
 
 $ python collatz.py 10
 10 -> 5 +> 16 -> 8 -> 4 -> 2 => 1 (6 ops)
+```
+
+Also, as a Java program `Collatz.java`:
+
+```
+$ javac Collatz.java
+$ java Collatz
+Enter number to test Collatz Conjecture: 
+100
+100.0  -> 50.0 -> 25.0 +> 76.0 -> 38.0 -> 19.0 +> 58.0 -> 29.0 +> 88.0 -> 44.0 -> 22.0 -> 11.0 +> 34.0 -> 17.0 +> 52.0 -> 26.0 -> 13.0 +> 40.0 -> 20.0 -> 10.0 -> 5.0 +> 16.0 -> 8.0 -> 4.0 -> 2.0 => 1 (25.0 ops)
+
+$ java Collatz
+Enter number to test Collatz Conjecture: 
+10
+10.0  -> 5.0 +> 16.0 -> 8.0 -> 4.0 -> 2.0 => 1 (6.0 ops)
 ```
 
 Relevant XKCD:
