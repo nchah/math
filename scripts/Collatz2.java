@@ -1,10 +1,8 @@
 /* 
- * Collatz.java
+ * Collatz2.java
  * Run collatz calcuations on the command line.
  *
- * $ java Collatz
- * Enter number to test Collatz Conjecture: 
- * 10000
+ * $ java Collatz 10000
  * 10000.0  -> 5000.0 -> 2500.0 -> 1250.0 -> 625.0 +> 1876.0 -> 938.0 -> 469.0 
  * +> 1408.0 -> 704.0 -> 352.0 -> 176.0 -> 88.0 -> 44.0 -> 22.0 -> 11.0 +> 34.0 
  * -> 17.0 +> 52.0 -> 26.0 -> 13.0 +> 40.0 -> 20.0 -> 10.0 -> 5.0 +> 16.0 -> 8.0 
@@ -12,21 +10,22 @@
  *
  */
 
-import java.util.Scanner;
+//import java.util.Scanner;
 import java.lang.String;
 
 
-public class Collatz {
+public class Collatz2 {
     
     public static void main (String[] args) {
         double n, stackCount = 0;
         String stackMessage = "";
 
-        Scanner in = new Scanner(System.in);
-        System.out.println("Enter number to test Collatz Conjecture: ");
+        //Scanner in = new Scanner(System.in);
+        //System.out.println("Enter number to test Collatz Conjecture: ");
         
-        n = in.nextDouble();
-        
+        //n = in.nextDouble();
+        n = Double.parseDouble(args[0]);
+
         String nString = Double.toString(n);
         stackMessage = stackMessage + nString + " ";
 
